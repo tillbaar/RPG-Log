@@ -99,16 +99,24 @@ blockquote {
   margin: 1.8rem 0;
 }
 
+/* ---- Shortcode ----------------------------------------------------------- */
+.text-emphasis-blue {
+  color: #1155cc;
+  font-weight: 500;
+}
+
 /* ---- Image and Text Grid -------------------------------------------------
    This creates a two-column grid layout for displaying images on the left
    with text on the right, repeated across multiple rows. Images are scaled
-   proportionally to a width of 5em, and text filles the remaining space -
-   10 characters. On narrow screens, the text width restriction is removed.
+   proportionally to a width specified by -image-width (default: 4em), and
+   text filles the remaining space - 10 characters. On narrow screens, the
+   text width restriction is removed.
    -------------------------------------------------------------------------- */
 
 .image-text-list {
+  --image-width: 4em;
   display: grid;
-  grid-template-columns: 5em 1fr;
+  grid-template-columns: var(--image-width) 1fr;
   align-items: start;
   column-gap: 1rem;
   row-gap: 1rem;

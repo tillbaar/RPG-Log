@@ -13,7 +13,7 @@ The act of drawing on one's own reserves of mana in order to generate an effect 
 
 These days, the praxis of spellcasting is commonly broken down into six distinct types, called the Colleges of Magic. This classification system was popularised following the establishment of the Mages Guild by Vanus Galerion in the early years of the Second Era. The formal division serves a practical purpose, by organising the vast and varied nature of magic into structured disciplines, thus enabling students to grasp the specific methodologies of spellcasting more easily.
 
-<div class="image-text-list">
+<div class="image-text-list" style="--image-width: 5em;">
   <div class="image-wrap">
     <img src="/images/alteration.webp" alt="Alteration">
   </div>
@@ -74,9 +74,9 @@ However, it should be noted, that the classification of magic into the Colleges 
 ## The Elemental Cycle
 
 ## Arcane Background
-The Savage Worlds system feature a universal magic system that can express hidden occult lore practiced only by dark cultists, pagan rituals, the eldritch sorcery of powerful wizards, weird gadgets created by mad scientists, super powers, and even brain-burning psionics. For ease of use, all of these effects are referred to as powers. They work the same from game to game, but the particular use, modifiers, and Trappings give the same core powers endless variations.
+The Savage Worlds system feature a universal magic system that can express hidden occult lore practiced only by dark cultists, pagan rituals, the eldritch sorcery of powerful wizards, weird gadgets created by mad scientists, super powers, and even brain-burning psionics. For ease of use, all of these effects are referred to as {% bemph "powers" %}. They work the same from game to game, but the particular use, modifiers, and Trappings give the same core powers endless variations.
 
-To use power, start by choosing one of the Arcane Back­ground Edges available in this setting.  Currently, only one Arcane Background has been worked out.
+To use powers, start by choosing one of the Arcane Back­ground Edges available in the setting.  Currently, only one Arcane Background is provided.
 
 ### Sorcery
 

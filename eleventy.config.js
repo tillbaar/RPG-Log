@@ -5,6 +5,11 @@ import { katex } from "@mdit/plugin-katex";
 
 // exports a function that Eleventy automatically calls when building the site
 export default function (eleventyConfig) {
+  // Shortcode for blue medium weight emphasis
+  eleventyConfig.addShortcode("bemph", function(text) {
+    return `<span class="text-emphasis-blue">${text}</span>`;
+  });
+
   // Vendor the CSS straight from node_modules - no CDN dependency, works
   // offline, and it is trivial to bump versions later with npm update.
   eleventyConfig.addPassthroughCopy({
