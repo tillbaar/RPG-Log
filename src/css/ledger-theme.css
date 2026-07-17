@@ -1,0 +1,139 @@
+/* --------------------------------------------------------------------------
+   load after latex.css
+   latex.css hardcodes its fonts directly on selectors, i.e., it has no font
+   variables, so these are selector overrides, not custom-property swaps
+   -------------------------------------------------------------------------- */
+
+body {
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.25;
+  text-align: justify;
+}
+
+h1 {
+  font-family: 'Crimson Pro', serif;
+  font-weight: 700;
+  font-size: 3.0rem;
+  color: var(--heading-color);
+  text-transform: uppercase;
+  border: 1px solid var(--heading-color);
+  padding: 0.00rem 0.00rem 0.25rem 0.00rem; /* top right bottom left */
+  margin-bottom: 0.00rem;
+}
+
+h2 {
+  font-family: 'Crimson Pro', serif;
+  font-weight: 700;
+  font-size: 2.0rem;
+  color: var(--heading-color);
+  text-transform: uppercase;
+  margin-top: 1.00rem;
+  margin-bottom: -0.75rem;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Crimson Pro', Georgia, 'Times New Roman', serif;
+  font-weight: 700;
+  color: var(--heading-color);
+  /* letter-spacing: 0.02em; */
+}
+
+code, pre, kbd {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 300;
+}
+
+/* Old-style figures in running prose (period-correct book typography);
+   lining + tabular figures wherever numbers must line up in columns —
+   i.e. actual ledger arithmetic. Both are progressive enhancements: browsers
+   or fonts without support just ignore them. */
+body {
+  font-variant-numeric: oldstyle-nums proportional-nums;
+}
+
+table,
+.tabular-nums {
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+/* ---- Colors -------------------------------------------------------------- */
+:root {
+  --body-bg-color: #f2ece4; /* page background color */
+  --body-color: #181d1d; /* main text color */ 
+  --heading-color: #58180d;
+
+  /*--link-visited: #7a2e20; /* all links - unvisited, visited, hover, active */
+  /*--link-focus-outline: #35507a; /* outline or border when a link is focused */
+  /*--pre-bg-color: #b99b68; /* background color of code blocks */
+  /*--kbd-bg-color: #e6dab8; /* background color of keyboard key blocks */
+  /*--kbd-border-color: #7a6a45; /* border color of keyboard key blocks */
+  /*--table-border-color: #7a2e20; /* red ink for the rules */
+  /*--sidenote-target-border-color: #8b6914; /* table border color */
+  /*--footnotes-border-color: #5c4a32; /* footnote border color */
+}
+
+/* ---- Margin Rule ---------------------------------------------------------
+   Adds a red rule near the left edge, separating a column from the entry.
+   border-left sits outside latex.css's existing padding (border-box sizing
+   is already set globally by latex.css), so this doesn't shift or override
+   any of its spacing. Reuses latex.css's own thick-border-width token.
+
+body {
+  border-left: var(--border-width-thick) solid var(--link-visited);
+}*/
+
+/* ---- Blockquote ----------------------------------------------------------
+   latex.css does not style <blockquote> — this adds this functionality
+*/
+blockquote {
+  border-left: var(--border-width-thin) solid var(--link-visited);
+  padding-left: 1.25rem;
+  font-style: italic;
+}
+
+/* ---- KaTeX ---------------------------------------------------------------
+   Adds vertical spacing around block-level math equations rendered by KaTeX.
+*/
+.katex-display {
+  margin: 1.8rem 0;
+}
+
+/* ---- Image and Text Grid -------------------------------------------------
+   This creates a two-column grid layout for displaying images on the left
+   with text on the right, repeated across multiple rows. Images are scaled
+   proportionally to a width of 5em, and text filles the remaining space -
+   10 characters. On narrow screens, the text width restriction is removed.
+   -------------------------------------------------------------------------- */
+
+.image-text-list {
+  display: grid;
+  grid-template-columns: 5em 1fr;
+  align-items: start;
+  column-gap: 1rem;
+  row-gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.image-wrap {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+.image-wrap img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.text-wrap p {
+  margin: 0;
+  max-width: calc(100% - 10ch);
+}
+
+@media (max-width: 600px) { /* narrow display */
+  .text-wrap p {
+    max-width: 100%;
+  }
+}
