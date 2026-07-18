@@ -32,6 +32,7 @@ export default function (eleventyConfig) {
 
   // search for source files in src write the built website in _site
   return {
+    pathPrefix: isProd ? "/RPG-Log/" : "/", // GitHub Pages deployment
     dir: {
       input: "src",
       output: "_site",
