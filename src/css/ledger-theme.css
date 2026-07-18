@@ -32,7 +32,7 @@ h2 {
   margin-bottom: -0.75rem;
 }
 
-h2, h3, h4, h5, h6 {
+h3, h4, h5, h6 {
   font-family: 'Crimson Pro', Georgia, 'Times New Roman', serif;
   font-weight: 700;
   color: var(--heading-color);
