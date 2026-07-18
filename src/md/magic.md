@@ -34,7 +34,6 @@ These days, the praxis of spellcasting is commonly broken down into six distinct
 
   <div class="image-wrap">
     <img src="{{ '/images/evocation.webp' | url }}" alt="Evocation">
-    <img src="/images/evocation.webp" alt="Evocation">
   </div>
   <div class="text-wrap">
     <p>
@@ -44,7 +43,6 @@ These days, the praxis of spellcasting is commonly broken down into six distinct
 
   <div class="image-wrap">
     <img src="{{ '/images/illusion.webp' | url }}" alt="Illusion">
-    <img src="/images/illusion.webp" alt="Illusion">
   </div>
   <div class="text-wrap">
     <p>
@@ -54,7 +52,6 @@ These days, the praxis of spellcasting is commonly broken down into six distinct
 
   <div class="image-wrap">
     <img src="{{ '/images/mysticism.webp' | url }}" alt="Mysticism">
-    <img src="/images/mysticism.webp" alt="Mysticism">
   </div>
   <div class="text-wrap">
     <p>
@@ -64,7 +61,6 @@ These days, the praxis of spellcasting is commonly broken down into six distinct
 
   <div class="image-wrap">
     <img src="{{ '/images/restoration.webp' | url }}" alt="Restoration">
-    <img src="/images/restoration.webp" alt="Restoration">
   </div>
   <div class="text-wrap">
     <p>
