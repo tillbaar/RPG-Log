@@ -30,6 +30,8 @@ export default function (eleventyConfig) {
   });
   eleventyConfig.setLibrary("md", md);
 
+  const isProd = process.env.ELEVENTY_ENV === "production";
+
   // search for source files in src write the built website in _site
   return {
     pathPrefix: isProd ? "/RPG-Log/" : "/", // GitHub Pages deployment
