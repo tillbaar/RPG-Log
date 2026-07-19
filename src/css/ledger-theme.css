@@ -123,6 +123,16 @@ blockquote {
   font-weight: 500;
 }
 
+/* ---- Lists --------------------------------------------------------------- */
+
+ul {
+  margin-bottom: 0;
+}
+
+ul li {
+  margin-bottom: 0.5lh;
+}
+
 /* ---- Tables -------------------------------------------------------------- */
 
 table.borders-custom {
@@ -284,6 +294,11 @@ body.sidebar-open #sidebar {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+/* remove items spacing introduced globally above */
+#sidebar ul li {
+  margin-bottom: 0;
 }
 
 /* apply uniform vertical spacing between all adjacent list items in sidebar */
