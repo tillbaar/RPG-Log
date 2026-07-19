@@ -74,6 +74,7 @@ However, it should be noted, that the classification of magic into the Colleges 
 <!-- ## The Elemental Cycle -->
 
 ## Arcane Backgrounds
+
 The Savage Worlds system feature a universal magic system that can express hidden occult lore practiced only by dark cultists, pagan rituals, the eldritch sorcery of powerful wizards, weird gadgets created by mad scientists, super powers, and even brain-burning psionics. For ease of use, all of these effects are referred to as {% bemph "powers" %}. They work the same from game to game, but the particular use, modifiers, and Trappings give the same core powers endless variations.
 
 To use powers, start by choosing one of the Arcane Back­ground Edges available in the setting. Currently, only one Arcane Background is provided.

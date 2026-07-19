@@ -62,12 +62,12 @@
   <nav id="sidebar" aria-label="Site Navigation">
     <h2 style="margin-top: 0; margin-bottom: 1rem;">Navigation</h2>
     <ul>
-      <li><a href="/">Home</a></li>
+      <li><a href="{{ '/' | url }}">Home</a></li>
       <li>
-        <a href="/md/magic">Magic</a>
+        <a href="{{ '/md/magic/' | url }}">Magic</a>
         <ul>
-          <li><a href="/md/magic/#the-six-colleges">The Six Colleges</a></li>
-          <li><a href="/md/magic/#arcane-backgrounds">Arcane Backgrounds</a></li>
+          <li><a href="{{ '/md/magic/#the-six-colleges' | url }}">The Six Colleges</a></li>
+          <li><a href="{{ '/md/magic/#arcane-backgrounds' | url }}">Arcane Backgrounds</a></li>
         </ul>
       </li>
       <!-- add more pages here as you create them -->
@@ -77,6 +77,6 @@
   {{ content | safe }}
 
   {# Navigation Sidebar Script #}
-  <script src="/js/sidebar.js"></script>
+  <script src="{{ '/js/sidebar.js' | url }}"></script>
 </body>
 </html>

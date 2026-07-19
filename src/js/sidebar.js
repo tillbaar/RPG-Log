@@ -11,6 +11,8 @@
   var sidebar = document.getElementById("sidebar");
   var backdrop = document.getElementById("sidebar-backdrop");
 
+  if (!toggle || !sidebar || !backdrop) return;
+
   function setOpen(open) {
     body.classList.toggle("sidebar-open", open);
 
