@@ -5,7 +5,7 @@ title: Magic
 
 # Magic
 
-Magic – euphemistically referred to as the Higher Art by some of its practitioners – is the craft of focusing and channeling the residue of creation found in all things, a property intrinsic to every form of matter and energy, which flows from Aetherius into the world. Magic can be harnessed in a variety of ways, but despite thousands of years of study, there is an enormous amount of speculation about how magic is generated, how it might be used, and how it flows between things. Indeed, it has been said that the mysteries of magic are as endless as the deep, dark, and endless waters of Aetherius from where it originates, and that those who study it must simply accept that there are some facets of magic that will elude them in perpetuity. Others have suggested that these mysteries remain unsolved precisely because of such defeatist perspectives.
+Magic &ndash; euphemistically referred to as the Higher Art by some of its practitioners &ndash; is the craft of focusing and channeling the residue of creation found in all things, a property intrinsic to every form of matter and energy, which flows from Aetherius into the world. Magic can be harnessed in a variety of ways, but despite thousands of years of study, there is an enormous amount of speculation about how magic is generated, how it might be used, and how it flows between things. Indeed, it has been said that the mysteries of magic are as endless as the deep, dark, and endless waters of Aetherius from where it originates, and that those who study it must simply accept that there are some facets of magic that will elude them in perpetuity. Others have suggested that these mysteries remain unsolved precisely because of such defeatist perspectives.
 
 The act of drawing on one's own reserves of mana in order to generate an effect in the world is called spellcasting. No two sorcerers weave their spells in exactly the same way; like painting or sculpting, each artist has their own distinctive style. Despite this, each culture tends to develop its own spellcasting habits. Spellcasters have been described as willworkers. A spellcaster changes reality using their own will, while specific techniques are used to ground their mind and thinking. Examples of this are spoken incantations and hand gestures; both methods help ease the mental and physical burden of a spell being cast.
 
@@ -71,31 +71,64 @@ These days, the praxis of spellcasting is commonly broken down into six distinct
 
 However, it should be noted, that the classification of magic into the Colleges is an artificial construct born of pedagogical convenience rather than empirical reality, established primarily to structure the curriculum for students of magic, and impose bureaucratic boundaries upon this boundless force. Magic itself flows undifferentiated from Aetherius and does not recognise the seemingly obvious differences apparent to the sorcerer. Categorising the manipulation of the mind as Air Magic while assigning the manipulation of the body to Wood Magic is a distinction of application, not essence. The true master of the arcane has to understand that these categorisations are illusions themselves, mere mental contrivances that must be discarded before one can comprehend the unified nature of magic.
 
-## The Elemental Cycle
+<!-- ## The Elemental Cycle -->
 
-## Arcane Background
+## Arcane Backgrounds
 The Savage Worlds system feature a universal magic system that can express hidden occult lore practiced only by dark cultists, pagan rituals, the eldritch sorcery of powerful wizards, weird gadgets created by mad scientists, super powers, and even brain-burning psionics. For ease of use, all of these effects are referred to as {% bemph "powers" %}. They work the same from game to game, but the particular use, modifiers, and Trappings give the same core powers endless variations.
 
-To use powers, start by choosing one of the Arcane Back­ground Edges available in the setting.  Currently, only one Arcane Background is provided.
+To use powers, start by choosing one of the Arcane Back­ground Edges available in the setting. Currently, only one Arcane Background is provided.
 
 ### Sorcery
 
-## Of Interest Upon the Advance
+**Arcane Skill**: Spellcraft (Mind)<br>
+**Requirements**: Novice<br>
+**Starting Powers**: 3<br>
+**Power Points**: 10<br>
+A sorcerer casts a spell by picking a target within Range and making a Spellcraft roll. A roll less than 4 means the spell doesn't activate and the sorcerer loses one Power Point. A roll of 4 or higher means the spell activates and consumes all the Power Points allocated to it, even if it misses the target, or the defender resists. A raise has additional effects noted in the particular spell description. A critical failure when casting a spell is called {% bemph "Backlash" %}, and causes one of the effects described in the table below.
 
-The factor's advance being compounded at the customary rate, the sum owed at the term's end is given by
+<table class="borders-custom col-1-c col-1-nowrap">
+  <thead>
+    <tr class="border-bottom-thin">
+      <th>2d6</th>
+      <th>Effect</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2</td>
+      <td><b>Catastrophe</b>: Something goes terribly wrong. The GM decides what, but some ideas are a new and permanent Minor Hindrance, the inability to use powers for several days, or simply an explosion. The backlash should be thematic if possible. If the sorcerer tampers with dark forces for their abilities, for example, they might become corrupted or summon something sinister into the world.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td><b>Backfire</b>: The power succeeds as with a raise but affects a different target with the worst possible results. An attack hits a random friend, Boost Trait increases an enemy’s Skill, etc. If there is no likely target, the sorcerer is Stunned instead. If the power has a Duration other than Instant, it lasts its full term and can only be negated by Dispel. The caster cannot voluntarily end the power themself.</td>
+    </tr>
+    <tr>
+      <td>4&thinsp;&ndash;&thinsp;5</td>
+      <td><b>Mana Drain</b>: The power fails and the Power Points allocated to it are spent, along with an additional 1d6 Power Points.</td>
+    </tr>
+    <tr>
+      <td>6&thinsp;&ndash;&thinsp;8</td>
+      <td><b>Stunned</b>: The caster is Stunned and subtracts 2 from skill rolls to cast any spells for the rest of the encounter</td>
+    </tr>
+    <tr>
+      <td>9&thinsp;&ndash;&thinsp;10</td>
+      <td><b>Mana Burn</b>: The sorcerer suffers 2d6 damage plus the cost of the power in Power Points, including any Power Modifiers the player declared.</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td><b>Fatigued</b>: The character suffers a level of Fatigue.</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td><b>Epiphany</b>: The power draws in ambient energy, automatically suc­ceeding against the target with a raise despite the Critical Failure and costing the caster no Power Points!</td>
+    </tr>
+  </tbody>
+</table>
 
-$$A = P\left(1 + \frac{r}{n}\right)^{nt}$$
+A sorcerer must be able to see their target. They are required to perform a few gestures, but can do so while wielding weapons. However, they cannot cast spells while Bound (CR 98). They also need to utter words of power, recite prayers, or perform similar audible acts. This means they can be
+heard as far as a standard talking voice could be heard. The Silence spell does not prevent spellcasting.
 
-where $P$ is the principal advanced, $r$ the annual rate, and $n$ the number of compounding periods. For a single passage of $t = 0.5$ years compounded quarterly, this yields a modest but honest return.
+Sorcerers use tools called {% bemph "Foci" %} to control magical forces and prevent otherworldly energies from getting out of control. These tools may be magical crystals, metal rods, or incense, among other things. A simple failure during any spellcasting without using a Focus results in Backlash. Also, Shorting is unavailable to sorcerers without their Focus.
 
-> Let every man render a true account of his dealings, for the ledger forgives no error of the hand, and remembers what the memory does not.
-
-## Account of Goods, Second Quarter
-
-| Date   | Particulars        | Debit  | Credit |
-|--------|---------------------|-------:|-------:|
-| 14 Apr | Bolts of sailcloth  | 42.10  |        |
-| 02 May | Sale, ginger & mace |        | 118.75 |
-| 19 Jun | Harbor dues, Cadiz  | 6.40   |        |
-
-The balance stands forward to the next folio.
+During {% bemph "Extended Casting" %}, activating a spell takes one full minute, but the spell's base
+Duration lasts 10 times longer. A sorcerer may cast a spell with fewer Power Points than it requires (whether they have them or not) by increasing the difficulty of their Spellcraft roll. This is called {% bemph "Shorting" %}. For every Power Point a sorcerer will short, they suffer a &minus;1 penalty to the roll. If they fail a shorted skill roll, it's consid­ered a Critical Failure!

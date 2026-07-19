@@ -11,10 +11,16 @@ body {
   text-align: justify;
 }
 
+.header-anchor {
+  color: inherit;
+  text-decoration: none;
+}
+
 h1 {
   font-family: 'Crimson Pro', serif;
   font-weight: 700;
   font-size: 3.0rem;
+  text-align: center;
   color: var(--heading-color);
   text-transform: uppercase;
   border: 1px solid var(--heading-color);
@@ -32,12 +38,24 @@ h2 {
   margin-bottom: -0.75rem;
 }
 
-h3, h4, h5, h6 {
+h3 {
+  font-family: 'Crimson Pro', serif;
+  font-weight: 700;
+  color: var(--heading-color);
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--heading-color);
+  padding: 0.00rem 0.00rem 0.25rem 0.00rem; /* top right bottom left */
+  margin-top: 1.00rem;
+  margin-bottom: -0.75rem;
+  
+}
+
+/* h4, h5, h6 {
   font-family: 'Crimson Pro', Georgia, 'Times New Roman', serif;
   font-weight: 700;
   color: var(--heading-color);
-  /* letter-spacing: 0.02em; */
-}
+  /* letter-spacing: 0.02em;
+} */
 
 code, pre, kbd {
   font-family: 'JetBrains Mono', monospace;
@@ -59,12 +77,12 @@ table,
 
 /* ---- Colors -------------------------------------------------------------- */
 :root {
-  --body-bg-color: #f2ece4; /* page background color */
-  --body-color: #181d1d; /* main text color */ 
+  --body-bg-color: #f2ece4;        /* page background color                 */
+  --body-color: #181d1d;           /* main text color                       */ 
   --heading-color: #58180d;
+  --link-visited: #58180d;         /* links: unvisited visited hover active */
+  --link-focus-outline: transparent; /* outline / border when link is focused */
 
-  /*--link-visited: #7a2e20; /* all links - unvisited, visited, hover, active */
-  /*--link-focus-outline: #35507a; /* outline or border when a link is focused */
   /*--pre-bg-color: #b99b68; /* background color of code blocks */
   /*--kbd-bg-color: #e6dab8; /* background color of keyboard key blocks */
   /*--kbd-border-color: #7a6a45; /* border color of keyboard key blocks */
@@ -103,6 +121,39 @@ blockquote {
 .text-emphasis-blue {
   color: #1155cc;
   font-weight: 500;
+}
+
+/* ---- Tables -------------------------------------------------------------- */
+
+table.borders-custom {
+  margin: 1rem 0;
+}
+
+table.borders-custom th,
+table.borders-custom td {
+  padding: 0.25rem;
+  padding-right: 1rem;
+  vertical-align: top;
+  text-align: justify;
+}
+
+table.borders-custom th {
+  font-weight: 500;
+}
+
+.col-1-nowrap tr > :nth-child(1),
+.col-2-nowrap tr > :nth-child(2),
+.col-3-nowrap tr > :nth-child(3),
+.col-4-nowrap tr > :nth-child(4),
+.col-5-nowrap tr > :nth-child(5),
+.col-6-nowrap tr > :nth-child(6),
+.col-7-nowrap tr > :nth-child(7),
+.col-8-nowrap tr > :nth-child(8),
+.col-9-nowrap tr > :nth-child(9),
+.col-10-nowrap tr > :nth-child(10),
+.col-11-nowrap tr > :nth-child(11),
+.col-12-nowrap tr > :nth-child(12) {
+  white-space: nowrap;
 }
 
 /* ---- Image and Text Grid -------------------------------------------------
@@ -144,4 +195,140 @@ blockquote {
   .text-wrap p {
     max-width: 100%;
   }
+}
+
+/* ---- Navigation Sidebar --------------------------------------------------
+   Closed by default, this fixed panel slides in over the page on open.
+   sidebar.js toggles the sidebar-open class on <body> to show / hide it.
+   -------------------------------------------------------------------------- */
+
+/* ---- Sidebar Button ------------------------------------------------------ */
+
+#sidebar-toggle {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 1.5rem;
+  z-index: 40;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--heading-color);
+  color: var(--body-bg-color);
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+#sidebar-toggle svg {
+  fill: currentColor; /* icon color follows the button's own color */
+}
+
+.icon-close {
+  display: none;
+}
+
+body.sidebar-open .icon-menu {
+  display: none;
+}
+
+body.sidebar-open .icon-close {
+  display: block;
+}
+
+/* ---- Sidebar Styling ----------------------------------------------------- */
+
+#sidebar-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+  z-index: 25;
+}
+
+body.sidebar-open #sidebar-backdrop {
+  opacity: 1;
+  pointer-events: auto;
+}
+ 
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: fit-content;
+  max-width: 80vw;
+  padding: 1.5rem;
+  background: var(--body-bg-color);
+  border-right: 1px solid var(--heading-color);
+  transform: translateX(-100%);
+  transition: transform 0.25s ease;
+  z-index: 30;
+  overflow-y: auto;
+  text-align: left;
+}
+
+body.sidebar-open #sidebar {
+  transform: translateX(0);
+}
+ 
+/* ---- Sidebar List Stlying ------------------------------------------------ */
+
+/* reset default list formatting for the primary sidebar container */
+#sidebar > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* apply uniform vertical spacing between all adjacent list items in sidebar */
+#sidebar ul > li + li {
+  margin-top: 0;
+}
+
+/* spacing override that targets only the top-level list items */
+#sidebar > ul > li + li {
+  margin-top: 0.5rem;
+}
+
+/* base typography and color rules for all sidebar links */
+#sidebar a {
+  font-family: 'Crimson Pro', serif;
+  color: var(--heading-color);
+  text-decoration: none;
+}
+
+/* Top-Level: Block layout for full-width border, heavy font weight */
+#sidebar > ul > li > a {
+  display: block;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border-bottom: 1px solid var(--heading-color);
+}
+
+/* Top-Level: Increase spacing to nested list items */
+#sidebar > ul > li > ul {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  max-width: 11rem; /* control second-level text wrapping */
+}
+
+/* Second-Level: Lighter font weight, inherits inline layout */
+#sidebar > ul > li > ul > li > a {
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+/* Nested Lists: Render standard bullet points, scoped to sidebar only */
+#sidebar ul ul {
+  list-style-type: disc;
+}
+
+/* Nested Lists: Colorise bullet markers to match the heading color variable */
+#sidebar ul ul > li::marker {
+  color: var(--heading-color);
 }
