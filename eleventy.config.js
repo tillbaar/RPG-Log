@@ -1,6 +1,7 @@
 // markdown-it: a parser that converts Markdown text into HTML
 // katex: a plugin that adds math rendering support to markdown-it
 import markdownIt from "markdown-it";
+import anchor from "markdown-it-anchor";
 import { katex } from "@mdit/plugin-katex";
 
 // exports a function that Eleventy automatically calls when building the site
@@ -25,9 +26,13 @@ export default function (eleventyConfig) {
   // Render $...$ and $$...$$ to real math at build time - no client-side JS,
   // no flash of unrendered TeX. htmlAndMathml keeps KaTeX's visual output
   // and a semantic MathML fallback for screen readers.
-  const md = markdownIt({ html: true }).use(katex, {
-    output: "htmlAndMathml",
-  });
+  const md = markdownIt({ html: true })
+    .use(katex, {
+      output: "htmlAndMathml",
+    })
+    .use(anchor, {
+      permalink: anchor.permalink.headerLink(),
+    });
   eleventyConfig.setLibrary("md", md);
 
   const isProd = process.env.ELEVENTY_ENV === "production";
