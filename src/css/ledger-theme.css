@@ -183,6 +183,7 @@ table.borders-custom th {
 .image-wrap img {
   display: block;
   width: 100%;
+  max-width: fit-content;
   height: auto;
 }
 
@@ -331,4 +332,24 @@ body.sidebar-open #sidebar {
 /* Nested Lists: Colorise bullet markers to match the heading color variable */
 #sidebar ul ul > li::marker {
   color: var(--heading-color);
+}
+
+/* ---- Additional Fonts ---------------------------------------------------- */
+
+@font-face {
+  font-family: 'Hayghin Daedric Dozenal';
+  src: url('/fonts/HayghinDaedricDozenal.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.daedric {
+  font-family: 'Hayghin Daedric Dozenal', sans-serif;
+  color: var(--heading-color);
+  font-size: 1.5em;
+  display: inline-block;
+  line-height: 0;
+  vertical-align: middle;
+  -webkit-text-stroke: 0.5px var(--heading-color);
 }

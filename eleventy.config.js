@@ -10,6 +10,11 @@ export default function (eleventyConfig) {
   eleventyConfig.addShortcode("bemph", function(text) {
     return `<span class="text-emphasis-blue">${text}</span>`;
   });
+  // Shortcode for Hayghin Daedric
+  eleventyConfig.addShortcode("daedric", function(text) {
+    return `<span class="daedric">${text}</span>`;
+  });
+
 
   // Vendor the CSS straight from node_modules - no CDN dependency, works
   // offline, and it is trivial to bump versions later with npm update.
@@ -20,6 +25,7 @@ export default function (eleventyConfig) {
     "node_modules/katex/dist/katex.min.css": "css/vendor/katex.min.css",
     "node_modules/katex/dist/fonts": "css/vendor/fonts",
     "src/assets/images": "images",
+    "src/assets/fonts": "fonts",
     "src/js": "js",
   });
 
