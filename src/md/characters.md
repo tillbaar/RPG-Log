@@ -141,3 +141,141 @@ The mortal species of the world are generally classified into three categories: 
 </div>
 
 ### Khajiiti Morphology
+
+The morphology of a Khajiit is determined by the phases of Jone and Jode at the time of their birth rather than the shape of their parents. Immediately after birth, all Khajiit look very similar to one another, but within weeks, their individual morphology becomes more distinct. A Khajiit's shape is fixed upon birth, and they will remain in that form for the rest of their life. There are eight main morphotypes, and each of which has two subtypes, the second one being denoted by the -Raht suffix. The Raht subtype is typically larger and stronger than its non-Raht counterpart. Despite their many differences, all morphotypes are capable of speech and are equally intelligent. In Khajiiti society, all forms are treated as Khajiit and are seen as equals.
+
+<table class="borders-custom col-1-nowrap">
+  <tbody>
+    <tr>
+      <td>Cathay<br>Cathay-Raht</td>
+      <td>When Masser is waxing and Secunda is waxing or full, a Cathay or Cathay-Raht is born. The Cathay are a plantigrade bipedal morphotype with upright pointed ears, fur covering their entire bodies, and long tails. However, Cathay are slightly larger and stronger than Suthay, around the size of most men and mer.</td>
+    </tr>
+    <tr>
+      <td>Suthay<br>Suthay-Raht</td>
+      <td>When Masser is new and Secunda is new or waning, a Suthay or Suthay-Raht is born. Like Cathay they are bipedal but possess a digitigrade leg structure. Sharp, extendable claws are present on their  hands and feet, and their heads appear very cat-like.</td>
+    </tr>
+    <tr>
+      <td>Tojay<br>Tojay-Raht</td>
+      <td>When Masser is waxing and Secunda is new or waning, a Tojay or Tojay-Raht is born. These digitigrade bipedal Khajiit are small, easily mistaken for children by outsiders. They are capable of dropping down and running on all fours despite their stoutness.</td>
+    </tr>
+    <tr>
+      <td>Pahmar<br>Pahmar-Raht</td>
+      <td>When Masser is full and Secunda is new or waning, a Pahmar or Pahmar-Raht is born. They are the largest plantigrade bipedal morphotype and often employed as bodyguards or warriors. Foreigners will write them off as &raquo;&hairsp;big, dumb brutes&hairsp;&laquo;, though they can very much be kind and gentle souls.</td>
+    </tr>
+    <tr>
+      <td>Senche<br>Senche-Raht</td>
+      <td>When Masser is full and Secunda is full or waxing, a Senche or Senche-Raht is born. The Senche are quadrupedal and the largest Khajiit morphotype. Their souls are said to be purest and most incorruptible. Smaller Khajiit may use them as steeds in times of war, if the Senche permits this.</td>
+    </tr>
+    <tr>
+      <td>Alfiq<br>Alfiq-Raht</td>
+      <td>When Masser is waning and Secunda is full or waxing, an Alfiq or Alfiq-Raht is born. These quadrupedal Khajiit are often mistaken by outsiders for regular housecats. Due to this disrespect, they rarely travel outside of Elsweyr.</td>
+    </tr>
+    <tr>
+      <td>Ohmes<br>Ohmes-Raht</td>
+      <td>When Masser is new and Secunda is full or waxing, an Ohmes or Ohmes-Raht is born. This plantigrade bidedal morphotype can be mistaken as men or mer, as they do not have fur. However, they do have tails, and the Ohmes-Raht even have cat ears.</td>
+    </tr>
+    <tr>
+      <td>Dagi<br>Dagi-Raht</td>
+      <td>When Masser is waning and Secunda is new or waning, a Dagi or Dagi-Raht is born. These plantigrade bipedal Khajiit are as small as the Tojay, but also very lithe. They are skilled climbers and like to live high up in the treetops.</td>
+    </tr>
+  </tbody>
+</table>
+
+### Beastfolk Qualities
+
+Species not included in the following list begin play with an additional free Novice Edge of their choice, though they must meet all the Edge’s requirements.
+
+<table class="borders-custom col-1-nowrap">
+  <tbody>
+    <tr>
+      <td>Argonians</td>
+      <td><ul style="margin-top: 0;">
+        <li><b>Aquatic</b>: Argonians do not drown in oxygenated water and move at their full Pace when swimming.</li>
+        <li><b>Resistance</b>: Argonians are well-adapted to life in their home, receiving a +4 bonus to resist natural poisons and diseases. Damage from such a source is also reduced by 4. This does not extend to artificial or magical poisons and diseases.</li>
+        <li><b>Weakness to Cold</b>: Argonians are mesothermic and poorly suited for frigid conditions. They suffer a &minus;4 penalty to resist any cold environmental effects, and suffer +4 damage from cold-based attacks.</li>
+      </ul></td>
+    </tr>
+    <tr>
+      <td>Gnolls</td>
+      <td><ul style="margin-top: 0;">
+        <li><b>Bite</b>: Gnolls have fangs that cause Str + d4 damage and may be used on grappled foes.</li>
+        <li><b>Resistance</b>: Gnolls are scavengers and their stomach acid is exceptionally corrosive, allowing them to safely digest putrid food that would be lethal to others. They receive a +4 bonus to resist ingested poisons and diseases. Damage from such a source is also reduced by 4.</li>
+        <li style="list-style-type: none;"><b> Vicious Bite</b> (Combat Edge): This Gnoll has trained to use their vicious bite in combat. Their bite inflict Strength + d6 damage and gains Armor Piercing 2.</li>
+      </ul></td>
+    </tr>
+    <tr>
+      <td>Khajiit</td>
+      <td><ul style="margin-top: 0">
+        <li><b>Claws</b>: Khajiit possess retractable claws that count as Natural Weapons and cause Strength + d4 damage. They also grant them a +2 bonus to Athletics rolls to climb fitting surfaces.</li>
+        <li><b>Low Light Vision</b>: Khajiiti eyes amplify light and allow them to ignore penalties for Dim and Dark Illumination.</li>
+        <li style="list-style-type: none;">&#x2E3B;&#x2E3B;</li>
+        <li><b>Evasive</b>: Alfiq are small and flexible, increasing their natural Parry by +1.</li>
+        <li><b>Four Legs</b>: Accustomed to moving on all fours, four-legged Khajiit ignore the penalty for Difficult Ground.</li>
+        <li><b>Versatility</b>: Four-legged Khajiit are nothing if not adaptable. They receive an additional free Novice Edge of their choice, though they must meet all the Edge’s requirements.</li>
+        <li><b>Vicious Claws</b>: Senche possess deadly claws that increase the damage they inflict to Strength + d6.</li>
+        <li style="margin-bottom: 0;"><b>No Hands</b>: Four-legged Khajiit and do not possess hands. They cannot use equipment that wasn’t specifically designed for them. Clothing and armor may be placed on them but they cannot take off or put on anything but the simplest garments by themselves.</li>
+      </ul></td>
+    </tr>
+  </tbody>
+</table>
+
+## Attributes
+
+Every character starts with a d4 in each of the five attributes: Agility, Mind, Spirit, Strength, and Vigor. You then have {% bemph "5 points" %} to increase your Attributes during Character Creation. Raising a d4 to a d6, for example, costs 1 point. You are free to spend these points however you like, except that no attribute may ever be raised above a d12 unless a species ability says otherwise. If an Attribute is increased beyond a d12, add a +1 modifier. Attributes do not directly affect Skill rolls, but a high Attribute allows one to increase the Skills governed by that Attribute faster, and opens up options to more Edges.
+
+<div class="image-text-list" style="--image-width: 6em; row-gap: 0;"">
+  <div class="image-wrap">
+    <img src="{{ '/images/agility.webp' | url }}" alt="Agility">
+  </div>
+  <div class="text-wrap" style="display: flex; flex-direction: column; justify-content: center; height: 100%;">
+    <p>
+      {% bemph "Agility" %} governs your dexterity and grace, how swiftly you avoid incoming violence, and how much fine motor control you possess when up against the clock.
+    </p>
+  </div>
+
+  <div class="image-wrap">
+    <img src="{{ '/images/mind.webp' | url }}" alt="Mind">
+  </div>
+  <div class="text-wrap" style="display: flex; flex-direction: column; justify-content: center; height: 100%;">
+    <p>
+      {% bemph "Mind" %} measures your ability to reason, research, and apply logic. It also covers  thinking quickly and reacting correctly on little information. You can recall and analyze information from books or from your senses. No puzzle or mystery can thwart the truly intelligent.
+    </p>
+  </div>
+
+  <div class="image-wrap">
+    <img src="{{ '/images/spirit.webp' | url }}" alt="Spirit">
+  </div>
+  <div class="text-wrap" style="display: flex; flex-direction: column; justify-content: center; height: 100%;">
+    <p>
+      {% bemph "Spirit" %} represents charisma and willpower. It is both a measure of your ability to convince others of your point of view and lie believably, as well as your ability to remain calm, to command your emotions, and to put others at ease despite anxiety.
+    </p>
+  </div>
+
+  <div class="image-wrap">
+    <img src="{{ '/images/strength.webp' | url }}" alt="Strength">
+  </div>
+  <div class="text-wrap" style="display: flex; flex-direction: column; justify-content: center; height: 100%;">
+    <p>
+      {% bemph "Strength" %} governs how much you can lift, how hard you can punch, and how much force you can push your body to exert.
+    </p>
+  </div>
+
+  <div class="image-wrap">
+    <img src="{{ '/images/vigor.webp' | url }}" alt="Vigor">
+  </div>
+  <div class="text-wrap" style="display: flex; flex-direction: column; justify-content: center; height: 100%;">
+    <p>
+      {% bemph "Vigor" %} represents your physical resistance. It involves absorbing physical harm, such as a speeding arrow or a werewolf’s slashing claws, and lets you persevere through hazards and arduous effort.
+    </p>
+  </div>
+</div>
+
+## Skills
+
+Skills are learned abilities such as fighting with weapons, hand-to-hand combat, scientific knowledge, professional aptitudes, and so on. Skills are very broad to keep the action simple and straightforward. The Archery skill, for example, covers all types of bows, crossbows, and other, more exotic ranged weapons. You have {% bemph "14 points" %} to raise Skills during Character Creation. Each die type costs 1 point, as long as the Skill is equal to or less than the governing Attribute. If you exceed the governing Attribute, the cost becomes 2 points per die type. Skills may not be increased above d12 during Character Creation unless the character’s species starts with the Skill at d6. If the Skill starts with a d6, the maximum is increased to d12 + 1.
+
+{% bemph "Academics" %}&ensp;(&hairsp;Mind&hairsp;)<br>
+This skill represents your understanding of the mundane world, covering the academic disciplines of mathematics, the natural sciences, and similar scholarly pursuits. It can be used both to recall useful pieces of knowledge, as well as to perform scholarly research in a library or archive. 
+
+{% bemph "Acrobatics" %}&ensp;(&hairsp;Agility&hairsp;)<br>
+While Athletics covers the basics of physical performance, Acrobatics comes into play when you want to do things that seem impossible to an untrained person. Acrobatics provides extraordinary body control, enabling you to perform somersaults, artistic jumps, or body contortions. Acrobats can also balance on ropes, or wriggle out of restraints. While Athletics is usually used actively, Acrobatics also comes into play when passive body control is required, such as maintaining balance on slippery ground.
