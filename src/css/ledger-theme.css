@@ -202,7 +202,7 @@ table.borders-custom th {
   max-width: calc(100% - 10ch);
 }
 
-@media (max-width: 600px) { /* narrow display */
+@media (max-width: 700px) { /* narrow display */
   .text-wrap p {
     max-width: 100%;
   }
