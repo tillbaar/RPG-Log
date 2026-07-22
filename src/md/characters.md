@@ -223,13 +223,13 @@ Species not included in the following list begin play with an additional free No
 
 Every character starts with a d4 in each of the five attributes: Agility, Mind, Spirit, Strength, and Vigor. You then have {% bemph "5 points" %} to increase your Attributes during Character Creation. Raising a d4 to a d6, for example, costs 1 point. You are free to spend these points however you like, except that no attribute may ever be raised above a d12 unless a species ability says otherwise. If an Attribute is increased beyond a d12, add a +1 modifier. Attributes do not directly affect Skill rolls, but a high Attribute allows one to increase the Skills governed by that Attribute faster, and opens up options to more Edges.
 
-<div class="image-text-list" style="--image-width: 6em; row-gap: 0;"">
+<div class="image-text-list" style="--image-width: 6em;">
   <div class="image-wrap">
     <img src="{{ '/images/agility.webp' | url }}" alt="Agility">
   </div>
   <div class="text-wrap" style="display: flex; flex-direction: column; justify-content: center; height: 100%;">
     <p>
-      {% bemph "Agility" %} governs your dexterity and grace, how swiftly you avoid incoming violence, and how much fine motor control you possess when up against the clock.
+      {% bemph "Agility" %} governs your dexterity and grace, how swiftly you avoid incoming violence, and how much fine motor control you possess when up against the clock. Agility governs many skills, including Melee and Ranged, which dictate how adept you are at hitting your opponents in combat.
     </p>
   </div>
 
@@ -256,7 +256,7 @@ Every character starts with a d4 in each of the five attributes: Agility, Mind, 
   </div>
   <div class="text-wrap" style="display: flex; flex-direction: column; justify-content: center; height: 100%;">
     <p>
-      {% bemph "Strength" %} governs how much you can lift, how hard you can punch, and how much force you can push your body to exert.
+      {% bemph "Strength" %} Strength governs how much you can lift, how hard you can punch, and how much force you can push your body to exert. It determines the damage you inflict in close combat, and the weight of weapons and armor you can comfortably handle. Strength also determines your carrying capacity.
     </p>
   </div>
 
@@ -265,7 +265,7 @@ Every character starts with a d4 in each of the five attributes: Agility, Mind, 
   </div>
   <div class="text-wrap" style="display: flex; flex-direction: column; justify-content: center; height: 100%;">
     <p>
-      {% bemph "Vigor" %} represents your physical resistance. It involves absorbing physical harm, such as a speeding arrow or a werewolf’s slashing claws, and lets you persevere through hazards and arduous effort.
+      {% bemph "Vigor" %} Vigor represents your physical resilience. It enables you to withstand harm, such as a speeding arrow or a werewolf’s claws, and persevere through hazards and arduous effort. This includes resisting diseases and poisons, and governs your chances when trying to {% bemph "Soak Damage" %} (CR 96). 
     </p>
   </div>
 </div>
