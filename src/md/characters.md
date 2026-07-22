@@ -279,3 +279,27 @@ This skill represents your understanding of the mundane world, covering the acad
 
 {% bemph "Acrobatics" %}&ensp;(&hairsp;Agility&hairsp;)<br>
 While Athletics covers the basics of physical performance, Acrobatics comes into play when you want to do things that seem impossible to an untrained person. Acrobatics provides extraordinary body control, enabling you to perform somersaults, artistic jumps, or body contortions. Acrobats can also balance on ropes, or wriggle out of restraints. While Athletics is usually used actively, Acrobatics also comes into play when passive body control is required, such as maintaining balance on slippery ground.
+
+{% bemph "Alchemy" %}&ensp;(&hairsp;Mind&hairsp;)<br>
+Both an art and a science, Alchemy is the exploration and utilisation of the magical properties of the material world. Traditionally, scientists and magicians have both been involved in alchemy, while some healers and spirit callers possess profound knowledge of its secrets. Alchemy is used when you want to make potions, tinctures, and ointments with different effects from various ingredients, or assess their effects.
+
+{% bemph "Arcana" %}&ensp;(&hairsp;Mind&hairsp;)<br>
+This skill represents the facility for dealing with the world’s mystical and otherworldly elements. It describes a rapport with the uncanny and things normally held beyond mortal ken. This includes understanding of the nature, powers, and ways of gods, ghosts, and demons. Arcana is vital to priests and clerics, whose arts cannot be taught to those lacking proper sensitivity, and also to the sorcerer, whose senses pierce the liminal barriers that separate this realm from the next.
+
+{% bemph "Archery" %}&ensp;(&hairsp;Agility&hairsp;)<br>
+This skill is the discipline of using ranged weapons. The bow is the dominant form of ranged weapon in the world in all its different varieties, from the simple wooden self bows used by subsistence hunters to the composite bows carried by the legion archers. However, Archery also applies to the use of more exotic weapons, like the crossbow and weird inventions left by the Dwemer.
+
+{% bemph "Athletics" %}&ensp;(&hairsp;Agility&hairsp;)<br>
+This skill covers basic physical activities such as running and swimming. It enables you to assess and use your own body correctly, to conserve your strength, and to get the best performance out of yourself. An athletic adventurer is also a good climber. This skill also encompasses the ability to use weapons designed to be thrown at an enemy, rather than those which fire projectiles. Throwing knives, shuriken, javelins, chakrams, and nets are all used with this skill.
+
+{% bemph "Bureaucracy" %}&ensp;(&hairsp;Spirit&hairsp;)<br>
+Bureaucracy represents your acumen in organisational, mercantile, and legal endeavors. Bureaucracy is used to assess and evaluate the resources &mdash; both wealth and manpower &mdash; available to one's self or one’s rivals, as well as to understand the legal codes of a society or the bureaucratic structure of an organization.
+
+{% bemph "Craft" %}&ensp;(&hairsp;Mind&hairsp;)<br>
+Craft is used to create or repair objects through skilled labor, whether forging a sword, cutting the gem for a merchant prince’s brooch, or planning and overseeing the construction of a temple.
+
+{% bemph "Investigation" %}&ensp;(&hairsp;Mind&hairsp;)<br>
+Investigation is used to uncover hidden or obscured details through close surveillance or examination, whether it is searching a magistrate's chamber for a hidden letter, unearthing clues at the scene of a murder, or reconstructing the details of a crime from the evidence presented before a judge at court. This skill is also used to read the emotional tells or body language of other characters to discern their inner thoughts.
+
+{% bemph "Larceny" %}&ensp;(&hairsp;Agility&hairsp;)<br>
+Larceny covers a range of talents that fall under the general penumbra of criminal activity. Pickpocketing, lock picking, and sleight of hand are all uses of Larceny that rely on physical deftness, but it also applies to more intellectual tasks such as creating an effective disguise, or hiding evidence at the scene of a crime.
